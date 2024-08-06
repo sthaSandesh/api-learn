@@ -2397,7 +2397,7 @@ __metadata:
   dependencies:
     eslint: "npm:^8"
     eslint-config-next: "npm:14.2.5"
-    next: "npm:14.2.5"
+    next: "npm:^14.2.5"
     postcss: "npm:^8"
     react: "npm:^18"
     react-dom: "npm:^18"
@@ -2682,7 +2682,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:14.2.5":
+"next@npm:^14.2.5":
   version: 14.2.5
   resolution: "next@npm:14.2.5"
   dependencies:
