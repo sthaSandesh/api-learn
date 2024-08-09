@@ -26,13 +26,18 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["class-variance-authority", "npm:0.7.0"],\
+          ["clsx", "npm:2.1.1"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:805ef20342ef6c0b429686c257b2292707a703570a0850cca21990cd42e8a206d4b5bb6d606e5796c0e55f63c7041a16e471444b0ba15c7c239fa7ebb3bb5405#npm:14.2.5"],\
+          ["lucide-react", "virtual:805ef20342ef6c0b429686c257b2292707a703570a0850cca21990cd42e8a206d4b5bb6d606e5796c0e55f63c7041a16e471444b0ba15c7c239fa7ebb3bb5405#npm:0.424.0"],\
           ["next", "virtual:805ef20342ef6c0b429686c257b2292707a703570a0850cca21990cd42e8a206d4b5bb6d606e5796c0e55f63c7041a16e471444b0ba15c7c239fa7ebb3bb5405#npm:14.2.5"],\
           ["postcss", "npm:8.4.41"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:805ef20342ef6c0b429686c257b2292707a703570a0850cca21990cd42e8a206d4b5bb6d606e5796c0e55f63c7041a16e471444b0ba15c7c239fa7ebb3bb5405#npm:18.3.1"],\
-          ["tailwindcss", "npm:3.4.7"]\
+          ["tailwind-merge", "npm:2.4.0"],\
+          ["tailwindcss", "npm:3.4.7"],\
+          ["tailwindcss-animate", "virtual:805ef20342ef6c0b429686c257b2292707a703570a0850cca21990cd42e8a206d4b5bb6d606e5796c0e55f63c7041a16e471444b0ba15c7c239fa7ebb3bb5405#npm:1.0.7"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -983,6 +988,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["class-variance-authority", [\
+      ["npm:0.7.0", {\
+        "packageLocation": "../../../C:/Users/DELL/AppData/Local/Yarn/Berry/cache/class-variance-authority-npm-0.7.0-1a63840197-10c0.zip/node_modules/class-variance-authority/",\
+        "packageDependencies": [\
+          ["class-variance-authority", "npm:0.7.0"],\
+          ["clsx", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["clean-stack", [\
       ["npm:2.2.0", {\
         "packageLocation": "../../../C:/Users/DELL/AppData/Local/Yarn/Berry/cache/clean-stack-npm-2.2.0-a8ce435a5c-10c0.zip/node_modules/clean-stack/",\
@@ -997,6 +1012,22 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../C:/Users/DELL/AppData/Local/Yarn/Berry/cache/client-only-npm-0.0.1-07d3e9505c-10c0.zip/node_modules/client-only/",\
         "packageDependencies": [\
           ["client-only", "npm:0.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["clsx", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../../C:/Users/DELL/AppData/Local/Yarn/Berry/cache/clsx-npm-2.0.0-afafbbe44a-10c0.zip/node_modules/clsx/",\
+        "packageDependencies": [\
+          ["clsx", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.1.1", {\
+        "packageLocation": "../../../C:/Users/DELL/AppData/Local/Yarn/Berry/cache/clsx-npm-2.1.1-96125b98be-10c0.zip/node_modules/clsx/",\
+        "packageDependencies": [\
+          ["clsx", "npm:2.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2917,13 +2948,18 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["learn-api", "workspace:."],\
+          ["class-variance-authority", "npm:0.7.0"],\
+          ["clsx", "npm:2.1.1"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:805ef20342ef6c0b429686c257b2292707a703570a0850cca21990cd42e8a206d4b5bb6d606e5796c0e55f63c7041a16e471444b0ba15c7c239fa7ebb3bb5405#npm:14.2.5"],\
+          ["lucide-react", "virtual:805ef20342ef6c0b429686c257b2292707a703570a0850cca21990cd42e8a206d4b5bb6d606e5796c0e55f63c7041a16e471444b0ba15c7c239fa7ebb3bb5405#npm:0.424.0"],\
           ["next", "virtual:805ef20342ef6c0b429686c257b2292707a703570a0850cca21990cd42e8a206d4b5bb6d606e5796c0e55f63c7041a16e471444b0ba15c7c239fa7ebb3bb5405#npm:14.2.5"],\
           ["postcss", "npm:8.4.41"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:805ef20342ef6c0b429686c257b2292707a703570a0850cca21990cd42e8a206d4b5bb6d606e5796c0e55f63c7041a16e471444b0ba15c7c239fa7ebb3bb5405#npm:18.3.1"],\
-          ["tailwindcss", "npm:3.4.7"]\
+          ["tailwind-merge", "npm:2.4.0"],\
+          ["tailwindcss", "npm:3.4.7"],\
+          ["tailwindcss-animate", "virtual:805ef20342ef6c0b429686c257b2292707a703570a0850cca21990cd42e8a206d4b5bb6d606e5796c0e55f63c7041a16e471444b0ba15c7c239fa7ebb3bb5405#npm:1.0.7"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -2998,6 +3034,28 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../C:/Users/DELL/AppData/Local/Yarn/Berry/cache/lru-cache-npm-10.4.3-30c10b861a-10c0.zip/node_modules/lru-cache/",\
         "packageDependencies": [\
           ["lru-cache", "npm:10.4.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lucide-react", [\
+      ["npm:0.424.0", {\
+        "packageLocation": "../../../C:/Users/DELL/AppData/Local/Yarn/Berry/cache/lucide-react-npm-0.424.0-fb092df31b-10c0.zip/node_modules/lucide-react/",\
+        "packageDependencies": [\
+          ["lucide-react", "npm:0.424.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:805ef20342ef6c0b429686c257b2292707a703570a0850cca21990cd42e8a206d4b5bb6d606e5796c0e55f63c7041a16e471444b0ba15c7c239fa7ebb3bb5405#npm:0.424.0", {\
+        "packageLocation": "./.yarn/__virtual__/lucide-react-virtual-26f44cd9b8/4/C:/Users/DELL/AppData/Local/Yarn/Berry/cache/lucide-react-npm-0.424.0-fb092df31b-10c0.zip/node_modules/lucide-react/",\
+        "packageDependencies": [\
+          ["lucide-react", "virtual:805ef20342ef6c0b429686c257b2292707a703570a0850cca21990cd42e8a206d4b5bb6d606e5796c0e55f63c7041a16e471444b0ba15c7c239fa7ebb3bb5405#npm:0.424.0"],\
+          ["@types/react", null],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4397,6 +4455,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["tailwind-merge", [\
+      ["npm:2.4.0", {\
+        "packageLocation": "../../../C:/Users/DELL/AppData/Local/Yarn/Berry/cache/tailwind-merge-npm-2.4.0-be8d0b173f-10c0.zip/node_modules/tailwind-merge/",\
+        "packageDependencies": [\
+          ["tailwind-merge", "npm:2.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["tailwindcss", [\
       ["npm:3.4.7", {\
         "packageLocation": "../../../C:/Users/DELL/AppData/Local/Yarn/Berry/cache/tailwindcss-npm-3.4.7-35193bb974-10c0.zip/node_modules/tailwindcss/",\
@@ -4424,6 +4491,28 @@ const RAW_RUNTIME_STATE =
           ["postcss-selector-parser", "npm:6.1.1"],\
           ["resolve", "patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"],\
           ["sucrase", "npm:3.35.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tailwindcss-animate", [\
+      ["npm:1.0.7", {\
+        "packageLocation": "../../../C:/Users/DELL/AppData/Local/Yarn/Berry/cache/tailwindcss-animate-npm-1.0.7-0ee9776556-10c0.zip/node_modules/tailwindcss-animate/",\
+        "packageDependencies": [\
+          ["tailwindcss-animate", "npm:1.0.7"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:805ef20342ef6c0b429686c257b2292707a703570a0850cca21990cd42e8a206d4b5bb6d606e5796c0e55f63c7041a16e471444b0ba15c7c239fa7ebb3bb5405#npm:1.0.7", {\
+        "packageLocation": "./.yarn/__virtual__/tailwindcss-animate-virtual-bd863aebce/4/C:/Users/DELL/AppData/Local/Yarn/Berry/cache/tailwindcss-animate-npm-1.0.7-0ee9776556-10c0.zip/node_modules/tailwindcss-animate/",\
+        "packageDependencies": [\
+          ["tailwindcss-animate", "virtual:805ef20342ef6c0b429686c257b2292707a703570a0850cca21990cd42e8a206d4b5bb6d606e5796c0e55f63c7041a16e471444b0ba15c7c239fa7ebb3bb5405#npm:1.0.7"],\
+          ["@types/tailwindcss", null],\
+          ["tailwindcss", "npm:3.4.7"]\
+        ],\
+        "packagePeers": [\
+          "@types/tailwindcss",\
+          "tailwindcss"\
         ],\
         "linkType": "HARD"\
       }]\
